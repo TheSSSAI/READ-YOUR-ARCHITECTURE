@@ -1,6 +1,6 @@
 # Prompt — Generate `architecture.json` for any codebase
 
-Copy everything in the **PROMPT** block below and paste it to Claude Code (or any capable coding agent) **inside the target project's repository**. Put `schema.json` and `explorer.html` from this folder into the target repo first (e.g. in `docs/architecture/`), or paste `schema.json`'s contents when asked. The agent will analyze the code and emit a `docs/architecture/architecture.json` that the generic `explorer.html` viewer renders as an interactive, recursive, drill-down diagram.
+Copy everything in the **PROMPT** block below and paste it to Claude Code (or any capable coding agent) **inside the target project's repository**. Put explorer.html` from this folder into the target repo first (e.g. in `docs/architecture/`), or paste `schema.json`'s contents when asked. The agent will analyze the code and emit a `docs/architecture/architecture.json` that the generic `explorer.html` viewer renders as an interactive, recursive, drill-down diagram.
 
 This prompt is **technology-agnostic** — it works for a Rust service, a React app, a Python data pipeline, a Go microservice mesh, a monolith, anything. It is engineered with explicit role-setting, a phased exploration-before-synthesis workflow, grounding/anti-hallucination rules, and a self-verification loop.
 
